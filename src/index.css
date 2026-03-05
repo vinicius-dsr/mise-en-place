@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: theme('colors.brand.cream');
+}
+
+.container-page {
+  @apply max-w-6xl mx-auto px-4 md:px-8 lg:px-0;
+}
+
+.heading-hero {
+  @apply font-serif font-extrabold tracking-tightest text-brand-green;
+}
+
+.heading-section {
+  @apply font-serif font-bold tracking-tightest text-brand-green;
+}
+
+.paragraph-muted {
+  @apply text-sm md:text-base text-brand-green/70;
+}
+
