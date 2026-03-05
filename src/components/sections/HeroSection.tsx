@@ -22,7 +22,7 @@ export function HeroSection({ id }: HeroSectionProps) {
         } transition-all duration-700`}
       >
         <div className="space-y-6">
-          <Badge className="bg-red">{hero.badge}</Badge>
+          <Badge>{hero.badge}</Badge>
           <h1 className="heading-hero text-4xl md:text-5xl lg:text-6xl">
             {(() => {
               const text = hero.title
